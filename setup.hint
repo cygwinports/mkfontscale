@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin libfontenc1 libfreetype26
+sdesc: "Xorg scalable font file indexer"
+ldesc: "Xorg scalable font file indexer"
