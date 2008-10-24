@@ -1,4 +1,4 @@
 category: X11
 requires: cygwin libfontenc1 libfreetype26 zlib
-sdesc: "Xorg scalable font file indexer"
-ldesc: "Xorg scalable font file indexer"
+sdesc: "X.Org scalable font file indexer"
+ldesc: "X.Org scalable font file indexer"
