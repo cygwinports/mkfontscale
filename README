@@ -3,20 +3,21 @@ mkfontscale
 X.Org scalable font file indexer
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libbz2_1-1.0.5-2
-  libfontenc1-1.0.4-1
-  libfreetype6-2.3.8-1
-  zlib-1.2.3-2
+  cygwin-1.7.0-43
+  libbz2_1-1.0.5-10
+  libfontenc1-1.0.4-10
+  libfreetype6-2.3.9-1
+  libgcc1-4.3.2-2
+  zlib0-1.2.3-10
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.4-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
   make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
@@ -46,25 +47,16 @@ This will create:
 Files included in the binary package:
 
   /usr/bin/mkfontscale.exe
-  /usr/share/doc/mkfontscale-1.0.6/COPYING
-  /usr/share/doc/mkfontscale-1.0.6/ChangeLog
+  /usr/share/doc/mkfontscale/COPYING
+  /usr/share/doc/mkfontscale/ChangeLog
   /usr/share/man/man1/mkfontscale.1.gz
 
 ------------------
 
 Port Notes:
 
------ version 1.0.6-1 -----
-Version bump. Enabled bzip2 support.
-
------ version 1.0.5-1 -----
-Version bump for X11R7.4.
-
------ version 1.0.3-1 -----
-Version bump for X11R7.3.
-
------ version 1.0.1-1 -----
-Initial Cygwin release of modular X11R7.0.
+----- version 1.0.6-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
