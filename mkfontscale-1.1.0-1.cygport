@@ -1,3 +1,0 @@
-inherit xorg
-
-CYGCONF_ARGS="--with-bzip2"
