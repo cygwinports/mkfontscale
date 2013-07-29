@@ -1,10 +1,13 @@
 inherit xorg
 
 NAME="mkfontscale"
-VERSION=1.1.0
+VERSION=1.1.1
 RELEASE=1
 CATEGORY="X11"
-SUMMARY="X.Org scalable font file indexer"
-DESCRIPTION="X.Org scalable font file indexer"
+SUMMARY="X scalable font file indexer"
+DESCRIPTION="For each directory argument, mkfontscale reads all of the
+scalable font files in the directory.  For every font file found, an X11 font
+name (XLFD) is generated, and is written together with the file name to a file
+fonts.scale in the directory."
 
 CYGCONF_ARGS="--with-bzip2"
